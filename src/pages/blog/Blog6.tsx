@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Leelavati Automation: Comprehensive Solutions for HVAC Systems
+              Leelavati Automation Pvt. Ltd.: Comprehensive Solutions for HVAC Systems
             </h1>
 
             <div className="post-info-wrapper">
@@ -74,7 +74,7 @@ function Blog1() {
             <div className="entry-content">
               <h4>Addressing Challenges in Heat Pump Manufacturing</h4>
               <p>
-                Leelavati Automation specializes in providing comprehensive
+                Leelavati Automation Pvt. Ltd. specializes in providing comprehensive
                 solutions for HVAC systems, tackling the diverse challenges
                 faced by heat pump manufacturers. Our expertise ensures
                 compliance with various regulations, enabling a high Seasonal
@@ -117,7 +117,7 @@ function Blog1() {
               <br />
               <h4>Commitment to Safety and Efficiency</h4>
               <p>
-                Leelavati Automation's components ensure robust performance and
+                Leelavati Automation Pvt. Ltd.'s components ensure robust performance and
                 safety, such as detecting the presence of wood in pellet
                 burners, thereby ensuring efficient and safe operation. We are
                 committed to delivering tailored solutions that enhance the
@@ -125,7 +125,7 @@ function Blog1() {
                 various industries.
               </p>
               <p>
-                Leelavati Automation stands at the forefront of HVAC technology,
+                Leelavati Automation Pvt. Ltd. stands at the forefront of HVAC technology,
                 providing advanced solutions to meet the industry's evolving
                 needs. Our commitment to innovation and quality ensures that our
                 products deliver superior performance and reliability, making us
@@ -143,7 +143,7 @@ function Blog1() {
             <a href="/blog-5" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowLeft} className="icon" />
               <p>
-                Leelavati Automation: Pioneering the Future of Plastic Machinery
+                Leelavati Automation Pvt. Ltd.: Pioneering the Future of Plastic Machinery
                 Manufacturing
               </p>
             </a>
@@ -161,7 +161,7 @@ function Blog1() {
             <a href="/blog-1" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Optimizing Agricultural Operations with Leelavati Automation's
+                Optimizing Agricultural Operations with Leelavati Automation Pvt. Ltd.'s
                 Advanced Sensor Technology
               </p>
             </a>

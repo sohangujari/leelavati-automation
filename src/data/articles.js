@@ -8,7 +8,7 @@ import article6 from '../assets/images/blogs/blog_img_06.jpg';
 const articles = [
     {
       "id": "1",
-      "title": "Optimizing Agricultural Operations with Leelavati Automation's Advanced Sensor Technology",
+      "title": "Optimizing Agricultural Operations with Leelavati Automation Pvt. Ltd.'s Advanced Sensor Technology",
       "category": "Agriculture",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",
@@ -16,7 +16,7 @@ const articles = [
     },
     {
       "id": "2",
-      "title": "Enhancing Efficiency Across Industries with Leelavati Automation's Advanced Sensor Technology",
+      "title": "Enhancing Efficiency Across Industries with Leelavati Automation Pvt. Ltd.'s Advanced Sensor Technology",
       "category": "Conveyors",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",
@@ -24,7 +24,7 @@ const articles = [
     },
     {
       "id": "3",
-      "title": "Mobile Equipment Operations with Leelavati Automation's Advanced Sensor Technology",
+      "title": "Mobile Equipment Operations with Leelavati Automation Pvt. Ltd.'s Advanced Sensor Technology",
       "category": "Mobile Equipments",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",
@@ -32,7 +32,7 @@ const articles = [
     },
     {
       "id": "4",
-      "title": "Leelavati Automation: Revolutionizing Energy Management in Corporate Parks",
+      "title": "Leelavati Automation Pvt. Ltd.: Revolutionizing Energy Management in Corporate Parks",
       "category": "Buildings and corporate parks",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",
@@ -40,7 +40,7 @@ const articles = [
     },
     {
       "id": "5",
-      "title": "Leelavati Automation: Pioneering the Future of Plastic Machinery Manufacturing",
+      "title": "Leelavati Automation Pvt. Ltd.: Pioneering the Future of Plastic Machinery Manufacturing",
       "category": "Plastic and rubber",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",
@@ -48,7 +48,7 @@ const articles = [
     },
     {
       "id": "6",
-      "title": "Leelavati Automation: Comprehensive Solutions for HVAC Systems",
+      "title": "Leelavati Automation Pvt. Ltd.: Comprehensive Solutions for HVAC Systems",
       "category": "HVAC",
       "date": "June 10, 2024",
       "description": "Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories …",

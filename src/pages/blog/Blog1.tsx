@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Optimizing Agricultural Operations with Leelavati Automation's
+              Optimizing Agricultural Operations with Leelavati Automation Pvt. Ltd.'s
               Advanced Sensor Technology
             </h1>
 
@@ -79,7 +79,7 @@ function Blog1() {
               <p>
                 In the ever-evolving agriculture sector, efficiency and
                 reliability are key to maximizing productivity and ensuring
-                sustainable practices. Leelavati Automation is at the forefront
+                sustainable practices. Leelavati Automation Pvt. Ltd. is at the forefront
                 of this transformation, offering advanced sensor technology that
                 enhances the performance of harvesting machinery, seed silos,
                 and irrigation systems.
@@ -107,7 +107,7 @@ function Blog1() {
               <br />
               <h4>Comprehensive Solutions for Agriculture</h4>
               <p>
-                Leelavati Automation's sensor technology is not limited to a
+                Leelavati Automation Pvt. Ltd.'s sensor technology is not limited to a
                 single application. Our sensors are integral to a wide range of
                 agricultural operations:
               </p>
@@ -129,13 +129,13 @@ function Blog1() {
                 </li>
               </ul>
               <br />
-              <h4>Choose Leelavati Automation for Agricultural Excellence</h4>
+              <h4>Choose Leelavati Automation Pvt. Ltd. for Agricultural Excellence</h4>
               <p>
                 When it comes to optimizing agricultural operations, Leelavati
                 Automation offers robust and reliable sensor solutions. Our
                 advanced technology helps you achieve greater efficiency, reduce
                 waste, and ensure the longevity of your equipment. Trust
-                Leelavati Automation to deliver the precision and durability
+                Leelavati Automation Pvt. Ltd. to deliver the precision and durability
                 your agricultural operations demand.
               </p>
             </div>
@@ -168,7 +168,7 @@ function Blog1() {
             <a href="/blog-2" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Leelavati Automation: Comprehensive Solutions for HVAC Systems
+                Leelavati Automation Pvt. Ltd.: Comprehensive Solutions for HVAC Systems
               </p>
             </a>
             <div className="cat-links">

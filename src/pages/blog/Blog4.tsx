@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Leelavati Automation: Revolutionizing Energy Management in
+              Leelavati Automation Pvt. Ltd.: Revolutionizing Energy Management in
               Corporate Parks
             </h1>
 
@@ -75,7 +75,7 @@ function Blog1() {
             <div className="entry-content">
               <h4>Comprehensive Energy Metering Solutions</h4>
               <p>
-                Leelavati Automation offers comprehensive solutions for energy
+                Leelavati Automation Pvt. Ltd. offers comprehensive solutions for energy
                 metering in large corporate parks. Our advanced monitoring
                 systems and energy analyzers provide precise and reliable data
                 to help manage and reduce energy consumption effectively. Our
@@ -110,7 +110,7 @@ function Blog1() {
                 energy costs under control and develop effective energy plans to
                 achieve significant energy savings. Our technology ensures
                 accurate measurement, monitoring, and management of energy
-                resources, making Leelavati Automation the ideal partner for
+                resources, making Leelavati Automation Pvt. Ltd. the ideal partner for
                 sustainable energy solutions in corporate environments.
               </p>
             </div>
@@ -125,7 +125,7 @@ function Blog1() {
             <a href="/blog-3" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowLeft} className="icon" />
               <p>
-                CMobile Equipment Operations with Leelavati Automation's
+                CMobile Equipment Operations with Leelavati Automation Pvt. Ltd.'s
                 Advanced Sensor Technology
               </p>
             </a>
@@ -143,7 +143,7 @@ function Blog1() {
             <a href="/blog-5" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Leelavati Automation: Pioneering the Future of Plastic Machinery
+                Leelavati Automation Pvt. Ltd.: Pioneering the Future of Plastic Machinery
                 Manufacturing
               </p>
             </a>

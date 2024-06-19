@@ -12,14 +12,14 @@
     },
     {
       "order": "II",
-      "servTitle": "Home & Building Automation ",
+      "servTitle": "Building Automation ",
       "desc": "Our smart home automation solutions enable centralised control of lighting devices, audio or video systems, kitchen appliances, air conditioning and heating, and much more used in the home.",
       "bottomSpace": true,
       "to":"/single"
     },
     {
       "order": "III",
-      "servTitle": "Internet of Things Solution",
+      "servTitle": "Smart IoT Solution",
       "desc": "IOT encourages businesses to reconsider how they approach their businesses, industries, and markets, and it provides them with the tools to improve their business strategies.",
       "bottomSpace": true,
       "to":"/single"

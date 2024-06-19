@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Mobile Equipment Operations with Leelavati Automation's Advanced
+              Mobile Equipment Operations with Leelavati Automation Pvt. Ltd.'s Advanced
               Sensor Technology
             </h1>
 
@@ -75,7 +75,7 @@ function Blog1() {
             <div className="entry-content">
               <h4>Precision Monitoring in Waste Disposal Trucks</h4>
               <p>
-                Leelavati Automation caters to the mobile equipment industry
+                Leelavati Automation Pvt. Ltd. caters to the mobile equipment industry
                 with advanced inductive sensors specifically designed for waste
                 disposal trucks. These sensors monitor door movement and locking
                 positions, as well as detect the positions of lift arms and
@@ -87,7 +87,7 @@ function Blog1() {
               <h4>Efficiency in Mobile Crane Operations</h4>
               <p>
                 In mobile cranes, precision and efficiency are crucial.
-                Leelavati Automation's sensors play a vital role in detecting
+                Leelavati Automation Pvt. Ltd.'s sensors play a vital role in detecting
                 telescopic arm fork extensions and outrigger positions. This
                 accurate detection is essential for maintaining stability and
                 operational efficiency, making our sensors indispensable for
@@ -97,7 +97,7 @@ function Blog1() {
               <h4>Durability in Heavy-Duty Vehicles</h4>
               <p>
                 For heavy-duty vehicles, continuous operation under extreme
-                environmental conditions is a necessity. Leelavati Automation's
+                environmental conditions is a necessity. Leelavati Automation Pvt. Ltd.'s
                 sensors are designed to withstand the harshest environments,
                 ensuring reliable performance and durability. Whether in waste
                 disposal trucks, mobile cranes, or other heavy-duty vehicles,
@@ -107,7 +107,7 @@ function Blog1() {
 
               <br />
               <p>
-                Leelavati Automation offers advanced sensor technology tailored
+                Leelavati Automation Pvt. Ltd. offers advanced sensor technology tailored
                 to meet the rigorous demands of the mobile equipment industry,
                 delivering precision, efficiency, and durability across various
                 applications.
@@ -139,7 +139,7 @@ function Blog1() {
             <a href="/blog-4" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Leelavati Automation: Revolutionizing Energy Management in
+                Leelavati Automation Pvt. Ltd.: Revolutionizing Energy Management in
                 Corporate Parks
               </p>
             </a>

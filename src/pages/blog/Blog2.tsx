@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Enhancing Efficiency Across Industries with Leelavati Automation's
+              Enhancing Efficiency Across Industries with Leelavati Automation Pvt. Ltd.'s
               Advanced Sensor Technology
             </h1>
 
@@ -75,7 +75,7 @@ function Blog1() {
             <div className="entry-content">
               <h4>Optimizing Food and Beverage Conveyor Systems</h4>
               <p>
-                Leelavati Automation provides advanced sensors tailored for
+                Leelavati Automation Pvt. Ltd. provides advanced sensors tailored for
                 conveyor systems in the food and beverage sector. Our sensors
                 are capable of detecting objects, moving parts, speed,
                 positions, dimensions, and filling levels. This comprehensive
@@ -87,7 +87,7 @@ function Blog1() {
               <h4>Precision in Digital Printing</h4>
               <p>
                 In the digital printing industry, precision is crucial.
-                Leelavati Automation's sensors ensure the precise monitoring of
+                Leelavati Automation Pvt. Ltd.'s sensors ensure the precise monitoring of
                 product position, timing, and ink levels. This level of accuracy
                 is essential for maintaining perfect alignment and timing, which
                 in turn results in high-quality printing outcomes. By
@@ -98,7 +98,7 @@ function Blog1() {
               <br />
               <h4>Advanced Solutions for Electronics Manufacturing</h4>
               <p>
-                For the electronics manufacturing sector, Leelavati Automation
+                For the electronics manufacturing sector, Leelavati Automation Pvt. Ltd.
                 offers smart sensors and solid-state actuators that provide
                 accurate position monitoring, speed control, and product
                 counting. These advanced solutions ensure collision-free
@@ -110,7 +110,7 @@ function Blog1() {
 
               <br />
               <p>
-                Choose Leelavati Automation for cutting-edge sensor technology
+                Choose Leelavati Automation Pvt. Ltd. for cutting-edge sensor technology
                 that boosts efficiency, reduces downtime, and drives
                 productivity across various industries.
               </p>
@@ -126,7 +126,7 @@ function Blog1() {
             <a href="/blog-1" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowLeft} className="icon" />
               <p>
-                Optimizing Agricultural Operations with Leelavati Automation's
+                Optimizing Agricultural Operations with Leelavati Automation Pvt. Ltd.'s
                 Advanced Sensor Technology
               </p>
             </a>
@@ -144,7 +144,7 @@ function Blog1() {
             <a href="/blog-3" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Mobile Equipment Operations with Leelavati Automation's Advanced
+                Mobile Equipment Operations with Leelavati Automation Pvt. Ltd.'s Advanced
                 Sensor Technology
               </p>
             </a>

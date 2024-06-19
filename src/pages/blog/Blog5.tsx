@@ -50,7 +50,7 @@ function Blog1() {
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
             <h1 className="entry-title">
-              Leelavati Automation: Pioneering the Future of Plastic Machinery
+              Leelavati Automation Pvt. Ltd.: Pioneering the Future of Plastic Machinery
               Manufacturing
             </h1>
 
@@ -75,7 +75,7 @@ function Blog1() {
             <div className="entry-content">
               <h4>Innovative Solutions for the Plastic Industry</h4>
               <p>
-                Leelavati Automation is a leader in advanced plastic machinery
+                Leelavati Automation Pvt. Ltd. is a leader in advanced plastic machinery
                 manufacturing, specializing in plastic extrusion, injection,
                 blow molding, and thermoforming machines, along with dryers and
                 dosing systems. Our products integrate cutting-edge technologies
@@ -86,7 +86,7 @@ function Blog1() {
               <br />
               <h4>Commitment to Sustainability</h4>
               <p>
-                At Leelavati Automation, we are committed to sustainability and
+                At Leelavati Automation Pvt. Ltd., we are committed to sustainability and
                 support the reduction of plastic waste by offering solutions for
                 sustainable packaging, recycling capabilities, and the use of
                 biodegradable materials. Our advanced machinery is designed to
@@ -106,7 +106,7 @@ function Blog1() {
               <p>
                 Join us in revolutionizing the future of plastic manufacturing.
                 For more information, visit our website or contact us directly.
-                Leelavati Automation is dedicated to driving the industry
+                Leelavati Automation Pvt. Ltd. is dedicated to driving the industry
                 forward with sustainable, high-performance solutions tailored to
                 meet your needs.
               </p>
@@ -122,7 +122,7 @@ function Blog1() {
             <a href="/blog-4" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowLeft} className="icon" />
               <p>
-                Leelavati Automation: Revolutionizing Energy Management in
+                Leelavati Automation Pvt. Ltd.: Revolutionizing Energy Management in
                 Corporate Parks
               </p>
             </a>
@@ -140,7 +140,7 @@ function Blog1() {
             <a href="/blog-6" className="nav-post-link">
               <FontAwesomeIcon icon={faArrowRight} className="icon" />
               <p>
-                Leelavati Automation: Comprehensive Solutions for HVAC Systems
+                Leelavati Automation Pvt. Ltd.: Comprehensive Solutions for HVAC Systems
               </p>
             </a>
             <div className="cat-links">
