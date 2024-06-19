@@ -2339,6 +2339,7 @@ textarea:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: start;
 }
 .single .post-navigator {
   flex-basis: 45%;
@@ -2391,6 +2392,10 @@ textarea:focus::placeholder {
 .preloader.fadeOff {
   opacity: 0;
 }
+
+/* ===================================
+    16. Notable Projects CSS
+====================================== */
 
 .image-grid {
   display: grid;

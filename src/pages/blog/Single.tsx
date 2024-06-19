@@ -49,18 +49,21 @@ function Single() {
 
         <div className="post-wrapper content-1170 center-relative">
           <div className="single-content-wrapper center-relative">
-            <h1 className="entry-title">Optimizing Agricultural Operations with Leelavati Automation's Advanced Sensor Technology</h1>
+            <h1 className="entry-title">Epochs encyclopa galactica stellar</h1>
 
             <div className="post-info-wrapper">
               <div className="entry-info">
                 <div className="cat-links">
                   <ul>
                     <li>
-                      <a href="#">Agriculture</a>
+                      <a href="#">CSS</a>
+                    </li>
+                    <li>
+                      <a href="#">Video</a>
                     </li>
                   </ul>
                 </div>
-                <div className="entry-date published">June 10, 2024</div>
+                <div className="entry-date published">September 10, 2018</div>
                 <div className="author-nickname">
                   <a href="#" rel="author">
                     John Smith
@@ -70,36 +73,62 @@ function Single() {
             </div>
 
             <div className="entry-content">
-              <h4>Enhancing Efficiency and Reliability in the Agriculture Sector</h4>
               <p>
-              In the ever-evolving agriculture sector, efficiency and reliability are key to maximizing productivity and ensuring sustainable practices. Leelavati Automation is at the forefront of this transformation, offering advanced sensor technology that enhances the performance of harvesting machinery, seed silos, and irrigation systems.
+                Bearable only through love hydrogen atoms bits of moving fluff
+                culture shores of the cosmic ocean paroxysm of global death rich
+                in heavy atoms with pretty stories for which there’s little good
+                evidence something incredible is waiting to be known not a
+                sunrise but a galaxyrise shores of the cosmic ocean.
               </p>
               <br />
-              <h4>Precision in Level Measurement
-              </h4>
-          <p>Our state-of-the-art sensors are engineered to provide precise level measurements for both liquid and solid silos. Whether you are dealing with small containers or large storage units, our sensors deliver accurate data, ensuring optimal storage conditions and efficient resource management.</p>
-          <br />
-          <h4>Durability in Harsh Conditions</h4>
-              <p>
-              Agricultural environments can be demanding, with machinery and components often exposed to harsh conditions. Leelavati Automation’s sensors are designed to withstand these challenges, delivering reliable performance in agricultural and earth-moving vehicles. Their robust construction ensures longevity and consistent operation, even in the toughest environments.
-
-              </p>
-
+              <blockquote>
+                <p>
+                  Birth dispassionate terrestrial for observer star stuff est
+                  harvesting light something incredible is prominant aso waiting
+                  to be known descended from astronomers billions.
+                </p>
+              </blockquote>
               <br />
-              <h4>Comprehensive Solutions for Agriculture</h4>
               <p>
-              Leelavati Automation's sensor technology is not limited to a single application. Our sensors are integral to a wide range of agricultural operations:
+                Galaxies network of wormholes birth extraplanetary Apollonius of
+                Perga adipisci velit! Muse about descended from astronomers
+                shores of the cosmic ocean across the centuries encyclopaedia
+                galactica Euclid intelligent beings. As a patch of light
+                Apollonius of Perga, rings of Uranus network of wormholes bits
+                of moving fluff, consciousness the only home we’ve ever known.
+                Galaxies, corpus callosum radio telescope. Globular star
+                cluster, light years made in the interiors of collapsing stars
+                cosmic ocean with pretty stories for which there’s little.
               </p>
-              <ul>
-                <li><b>Harvesting Machinery: </b>Enhance the efficiency and precision of harvesting equipment with sensors that monitor and optimize performance.
-                </li>
-                <li><b>Seed Silos: </b>Maintain ideal storage conditions with accurate level measurements, ensuring seed quality and reducing waste.                </li>
-                <li><b>Irrigation Systems: </b>Improve water management with sensors that provide real-time data, promoting efficient and sustainable irrigation practices.                </li>
-              </ul>
               <br />
-              <h4>Choose Leelavati Automation for Agricultural Excellence</h4>
+              <p className="video-iframe">
+                <iframe src="https://player.vimeo.com/video/199192931"></iframe>
+              </p>
+              <br />
               <p>
-              When it comes to optimizing agricultural operations, Leelavati Automation offers robust and reliable sensor solutions. Our advanced technology helps you achieve greater efficiency, reduce waste, and ensure the longevity of your equipment. Trust Leelavati Automation to deliver the precision and durability your agricultural operations demand.
+                Curabitur id eros diam. Sed sit amet turpis at magna aliquam
+                eleifend eu ac libero. Curabitur id finibus dolor, eget aliquet
+                dui. Donec id erat dictum sapien mollis venenatis. Orci varius
+                natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus. Nullam et blandit felis, non porttitor neque.
+                Vivamus egestas, elit ac sagittis condimentum, nulla ipsum
+                fermentum sem, sit amet hendrerit nulla purus vel eros. Etiam
+                rhoncus velit a dapibus pretium. Maecenas ac turpis magna.
+              </p>
+              <br />
+              <p className="video-iframe">
+                <iframe src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F184006547&amp;show_artwork=true&amp;maxwidth=1170&amp;maxheight=1000&amp;dnt=1"></iframe>
+              </p>
+              <br />
+              <p>
+                Nullam porttitor nisl et libero congue, id molestie lectus
+                congue. Curabitur id massa tortor. Cras auctor nisl et euismod
+                sodales. Quisque egestas nisl eget tempor auctor. Nullam
+                viverra, massa varius molestie ornare, eros orci ornare arcu, eu
+                pellentesque purus tortor vel eros. Nam tincidunt leo
+                sollicitudin purus suscipit facilisis. Morbi sit amet mattis
+                turpis. In congue, tellus ut consequat volutpat, ex nibh
+                sagittis neque, non facilisis metus ligula ac lectus.
               </p>
             </div>
           </div>

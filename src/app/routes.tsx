@@ -2,6 +2,12 @@
 import Landing from '../pages/';
 import Navbar from '../components/Navbar';
 import Single from '../pages/blog/Single';
+import Blog1 from '../pages/blog/Blog1';
+import Blog2 from '../pages/blog/Blog2';
+import Blog3 from '../pages/blog/Blog3';
+import Blog4 from '../pages/blog/Blog4';
+import Blog5 from '../pages/blog/Blog5';
+import Blog6 from '../pages/blog/Blog6';
 import Footer from '../pages/Footer';
 import Blog from '../pages/blog/Blog';
 import NotableProjects from '../pages/sections/ NotableProjects';
@@ -48,6 +54,30 @@ const routes: RoutesType[] = [
   {
     path: '/single',
     element: renderWithNav(<Single />, false),
+  },
+  {
+    path: '/blog-1',
+    element: renderWithNav(<Blog1 />, false),
+  },
+  {
+    path: '/blog-2',
+    element: renderWithNav(<Blog2 />, false),
+  },
+  {
+    path: '/blog-3',
+    element: renderWithNav(<Blog3 />, false),
+  },
+  {
+    path: '/blog-4',
+    element: renderWithNav(<Blog4 />, false),
+  },
+  {
+    path: '/blog-5',
+    element: renderWithNav(<Blog5 />, false),
+  },
+  {
+    path: '/blog-6',
+    element: renderWithNav(<Blog6 />, false),
   },
   {
     path: '/blog',
