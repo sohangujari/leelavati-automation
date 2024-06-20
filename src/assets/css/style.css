@@ -1980,7 +1980,7 @@ body.blog {
   word-break: break-word;
   text-align: center;
   color: #000;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto 10px;
   padding-top: 0;
 }
@@ -2027,7 +2027,7 @@ body.blog {
 }
 
 .single-post .single-content-wrapper {
-  width: 800px;
+  width: 1000px;
   max-width: 95%;
 }
 

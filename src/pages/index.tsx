@@ -43,12 +43,12 @@ function Landing() {
         <HomeSection />
         <Services />
         <Portfolio />
+        <Milestones />
         <News />
         <Clients />
         {/* <Skills /> */}
         {/* <Team /> */}
         <About />
-        <Milestones />
         {/* <Pricing /> */}
         <Contact />
       </div>
