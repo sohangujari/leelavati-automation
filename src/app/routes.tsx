@@ -11,7 +11,9 @@ import Blog6 from '../pages/blog/Blog6';
 import Footer from '../pages/Footer';
 import Blog from '../pages/blog/Blog';
 import NotableProjects from '../pages/sections/ NotableProjects';
-import FactoryAutomation from '../pages/blog/FactoryAutomation'
+import FactoryAutomation from '../pages/blog/FactoryAutomation';
+import Products from '../pages/products/Products';
+import Brands from '../pages/products/Brands';
 
 // ------------------
 
@@ -90,6 +92,14 @@ const routes: RoutesType[] = [
   {
     path: '/factory-automation',
     element: renderWithNav(<FactoryAutomation />, false),
+  },
+  {
+    path: '/products',
+    element: renderWithNav(<Products />, false),
+  },
+  {
+    path: '/brands',
+    element: renderWithNav(<Brands />, false),
   },
 ];
 
