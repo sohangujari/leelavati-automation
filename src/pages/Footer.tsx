@@ -19,15 +19,15 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content center-relative">
         <div className="footer-logo">
-          <img src={logo} alt="Meelo" />
+          <img src={logo} alt="Leelavati Automation" />
         </div>
 
         <div className="footer-mail">
-          <a href="mailto:hello@site.com">hello@cocobasic.com</a>
+          <a href="mailto:hello@site.com">manoj@leelavati.com</a>
         </div>
 
         <div className="footer-phone">
-          <a href="tel:123456789">+123.456.789</a>
+          <a href="tel:9820062906">+91 9820062906</a>
         </div>
 
         <div className="social-holder">
@@ -46,8 +46,8 @@ function Footer() {
         </div>
 
         <div className="copyright-holder">
-          © {new Date().getFullYear()} Meelo React Template by{" "}
-          <a href="https://cocobasic.com">CocoBasic</a>
+          © {new Date().getFullYear()}{" "}
+          <a href="/">Leelavati Automation Pvt. Ltd.</a>
         </div>
       </div>
     </footer>

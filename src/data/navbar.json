@@ -38,6 +38,10 @@
     {
       "to": "/notable-projects",
       "text": "Notable Projects"
+    },
+    {
+      "to": "brochure",
+      "text": "Request Brochure"
     }
   ]
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import Modal from '../pages/sections/modal';
 
 // Images
 import logo from "../assets/images/logo.png";
@@ -8,38 +9,37 @@ import logo from "../assets/images/logo.png";
 // Data
 import navData from "../data/navbar.json";
 
-// --------------
-
 type NavbarProps = {
   isLanding: boolean;
 };
 
 function Navbar({ isLanding }: NavbarProps) {
   const [navActive, setNavActive] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
 
-  /**
-   * Hiding navigation on clicking a nav link (important in mobie view)
-   */
   const handleLinkClick = () => {
     setNavActive(false);
   };
 
-  /**
-   * Hiding navigation on clicking a nav link (important in mobie view)
-   */
-  const handleInternalLinkClick = () => {
-    setNavActive(false);
-    window.scroll(0, 0);
+  const handleInternalLinkClick = (link: string) => {
+    if (link === "brochure") {
+      setModalOpen(true);
+    } else {
+      setNavActive(false);
+      window.scroll(0, 0);
+    }
   };
 
-  /**
-   * Toggle menu on clicking on menu btn
-   */
   const handleMenuBtnClick = () => {
     setNavActive(!navActive);
   };
 
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
+    <>
     <header className="header-holder">
       <div className="menu-wrapper center-relative relative">
         <div className="header-logo">
@@ -85,9 +85,9 @@ function Navbar({ isLanding }: NavbarProps) {
               ))}
               {navData.internalLinks.map((link, i) => (
                 <li key={"internalLink-" + i}>
-                  <RouterLink to={link.to} onClick={handleInternalLinkClick}>
+                  <a href="#" onClick={() => handleInternalLinkClick(link.to)}>
                     {link.text}
-                  </RouterLink>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -95,7 +95,13 @@ function Navbar({ isLanding }: NavbarProps) {
         </div>
         <div className="clear"></div>
       </div>
+
+      {/* {modalOpen && <Modal closeModal={closeModal} />} */}
     </header>
+    <div>
+        {modalOpen && <Modal closeModal={closeModal} />}
+    </div>
+    </>
   );
 }
 
