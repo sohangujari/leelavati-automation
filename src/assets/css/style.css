@@ -2646,3 +2646,13 @@ textarea:focus::placeholder {
   display: block;
   margin: 0 auto 10px;
 }
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title img {
+  width: 60px;
+}

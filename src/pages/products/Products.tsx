@@ -20,12 +20,16 @@ function Products() {
     useEffect(() => {
         const brand = query.get('brand');
         if (brand) {
-            setBrandFilter(brand);
+            setBrandFilter(brand.toLowerCase());
+        } else {
+            setBrandFilter('');
         }
     }, [query]);
 
     const handleBrandChange = (event: ChangeEvent<HTMLSelectElement>) => {
-        setBrandFilter(event.target.value);
+        const selectedBrand = event.target.value.toLowerCase();
+        setBrandFilter(selectedBrand);
+        navigate(`/products${selectedBrand ? `?brand=${selectedBrand}` : ''}`);
     };
 
     const handleSeriesChange = (event: ChangeEvent<HTMLSelectElement>) => {
@@ -54,7 +58,7 @@ function Products() {
         setHousingSizeFilter('');
         setSensingDistanceFilter('');
         setSearchTerm('');
-        navigate('/products'); // Reset the query parameters
+        navigate('/products');
     };
 
     const filteredProducts = products.filter(product => {
