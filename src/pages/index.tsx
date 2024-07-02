@@ -6,6 +6,7 @@ import Services from './sections/Services';
 import Contact from './sections/Contact';
 import Portfolio from './sections/portfolio';
 import Skills from './sections/Skills';
+import Video from './sections/Video';
 
 // Components
 import Loader from '../components/Loader';
@@ -42,6 +43,7 @@ function Landing() {
       <div id="content" className="site-content center-relative">
         <HomeSection />
         <Services />
+        <Video />
         <Portfolio />
         <Milestones />
         <News />

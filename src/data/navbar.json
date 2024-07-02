@@ -9,12 +9,12 @@
       "text": "Services"
     },
     {
-      "to": "clients",
-      "text": "Clients"
-    },
-    {
       "to": "about",
       "text": "About"
+    },
+    {
+      "to": "clients",
+      "text": "Clients"
     },
     {
       "to": "milestones",
