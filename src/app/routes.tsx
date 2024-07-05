@@ -14,6 +14,8 @@ import NotableProjects from '../pages/sections/ NotableProjects';
 import FactoryAutomation from '../pages/blog/FactoryAutomation';
 import Products from '../pages/products/Products';
 import Brands from '../pages/products/Brands';
+import ProductCategory from '../pages/products/ProductCategory';
+import ProductSubCategory from '../pages/products/ProductSubCategory';
 
 // ------------------
 
@@ -96,6 +98,14 @@ const routes: RoutesType[] = [
   {
     path: '/products',
     element: renderWithNav(<Products />, false),
+  },
+  {
+    path: '/product-category',
+    element: renderWithNav(<ProductCategory />, false),
+  },
+  {
+    path: '/product-subcategory',
+    element: renderWithNav(<ProductSubCategory />, false),
   },
   {
     path: '/brands',

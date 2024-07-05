@@ -3,46 +3,54 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import ProductCard from '../../components/ProductCard';
 import products from "../../data/products";
 import brands from "../../data/brands";
+import categories from "../../data/product-category";
+import subcategories from "../../data/product-subcategory";
 
 function useQuery() {
     return new URLSearchParams(useLocation().search);
 }
 
 function Products() {
-    const [brandFilter, setBrandFilter] = useState<string>('');
-    const [seriesFilter, setSeriesFilter] = useState<string>('');
-    const [housingSizeFilter, setHousingSizeFilter] = useState<string>('');
+    const [brandFilters, setBrandFilters] = useState<string[]>([]);
+    const [categoryFilters, setCategoryFilters] = useState<string[]>([]);
+    const [subcategoryFilters, setSubcategoryFilters] = useState<string[]>([]);
     const [sensingDistanceFilter, setSensingDistanceFilter] = useState<string>('');
     const [searchTerm, setSearchTerm] = useState<string>('');
     const query = useQuery();
     const navigate = useNavigate();
 
     useEffect(() => {
-        const brand = query.get('brand');
-        if (brand) {
-            setBrandFilter(brand.toLowerCase());
-        } else {
-            setBrandFilter('');
-        }
+        const brands = query.getAll('brand').map(b => b.toLowerCase());
+        const categories = query.getAll('category').map(c => c.toLowerCase());
+        const subcategories = query.getAll('subcategory').map(sc => sc.toLowerCase());
+
+        setBrandFilters(brands);
+        setCategoryFilters(categories);
+        setSubcategoryFilters(subcategories);
     }, [query]);
 
-    const handleBrandChange = (event: ChangeEvent<HTMLSelectElement>) => {
-        const selectedBrand = event.target.value.toLowerCase();
-        setBrandFilter(selectedBrand);
-        navigate(`/products${selectedBrand ? `?brand=${selectedBrand}` : ''}`);
-    };
-
-    const handleSeriesChange = (event: ChangeEvent<HTMLSelectElement>) => {
-        setSeriesFilter(event.target.value);
-    };
-
-    const handleHousingSizeChange = (event: ChangeEvent<HTMLSelectElement>) => {
-        setHousingSizeFilter(event.target.value);
-    };
-
-    const handleSensingDistanceChange = (event: ChangeEvent<HTMLSelectElement>) => {
-        setSensingDistanceFilter(event.target.value);
-    };
+    const handleFilterChange = (filterSetter: React.Dispatch<React.SetStateAction<string[]>>, filterValues: string[], queryParam: string) => (event: ChangeEvent<HTMLSelectElement>) => {
+        const value = event.target.value.toLowerCase();
+        let newFilters: string[];
+    
+        if (value === '') {
+            newFilters = [];
+        } else {
+            newFilters = filterValues.includes(value) ? filterValues.filter(f => f !== value) : [...filterValues, value];
+        }
+    
+        filterSetter(newFilters);
+    
+        const searchParams = new URLSearchParams(query.toString());
+        searchParams.delete(queryParam);
+        newFilters.forEach(filter => {
+            if (filter !== '') {
+                searchParams.append(queryParam, filter);
+            }
+        });
+    
+        navigate(`/products?${searchParams.toString()}`);
+    };    
 
     const handleSearchInputChange = (event: ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(event.target.value);
@@ -53,20 +61,22 @@ function Products() {
     };
 
     const handleClearFilters = () => {
-        setBrandFilter('');
-        setSeriesFilter('');
-        setHousingSizeFilter('');
+        setBrandFilters([]);
+        setCategoryFilters([]);
+        setSubcategoryFilters([]);
         setSensingDistanceFilter('');
         setSearchTerm('');
         navigate('/products');
-    };
+    };    
 
     const filteredProducts = products.filter(product => {
         return (
-            (brandFilter === '' || product.brand.toLowerCase() === brandFilter) &&
+            (brandFilters.length === 0 || brandFilters.includes(product.brand.toLowerCase()) || brandFilters.includes('')) &&
+            (categoryFilters.length === 0 || categoryFilters.includes(product.category.toLowerCase()) || categoryFilters.includes('')) &&
+            (subcategoryFilters.length === 0 || subcategoryFilters.includes(product.subcategory.toLowerCase()) || subcategoryFilters.includes('')) &&
             (searchTerm === '' || product.productName.toLowerCase().includes(searchTerm.toLowerCase()))
         );
-    });
+    });    
 
     return (
         <div className='product-main'>
@@ -78,28 +88,24 @@ function Products() {
                 </div>
                 <div className='product-filter'>
                     <div>
-                        <select className='filter-dropdown' value={brandFilter} onChange={handleBrandChange}>
-                            <option value=''>Brand</option>
+                        <select className='filter-dropdown' onChange={handleFilterChange(setBrandFilters, brandFilters, 'brand')} value={brandFilters}>
+                            <option value='' selected={brandFilters.length === 0}>All Brands</option>
                             {brands.map((brand) => (
                                 <option key={brand.id} value={brand.name.toLowerCase()}>{brand.name}</option>
                             ))}
                         </select>
-                        <select className='filter-dropdown' value={seriesFilter} onChange={handleSeriesChange}>
-                            <option value=''>Series</option>
-                            <option value='option1'>Option 1</option>
-                            <option value='option2'>Option 2</option>
-                            <option value='option3'>Option 3</option>
+                        <select className='filter-dropdown' onChange={handleFilterChange(setCategoryFilters, categoryFilters, 'category')} value={categoryFilters}>
+                            <option value='' selected={categoryFilters.length === 0}>All Categories</option>
+                            {categories.map((category) => (
+                                <option key={category.id} value={category.name.toLowerCase()}>{category.name}</option>
+                            ))}
                         </select>
-                        <select className='filter-dropdown' value={housingSizeFilter} onChange={handleHousingSizeChange}>
-                            <option value=''>Housing size</option>
-                            <option value='option1'>Option 1</option>
-                            <option value='option2'>Option 2</option>
-                        </select>
-                        <select className='filter-dropdown' value={sensingDistanceFilter} onChange={handleSensingDistanceChange}>
-                            <option value=''>Sensing distance</option>
-                            <option value='10 mm'>10 mm</option>
-                            <option value='12 mm'>12 mm</option>
-                            <option value='15 mm'>15 mm</option>
+
+                        <select className='filter-dropdown' onChange={handleFilterChange(setSubcategoryFilters, subcategoryFilters, 'subcategory')} value={subcategoryFilters}>
+                            <option value='' selected={subcategoryFilters.length === 0}>All Subcategories</option>
+                            {subcategories.map((subcategory) => (
+                                <option key={subcategory.id} value={subcategory.name.toLowerCase()}>{subcategory.name}</option>
+                            ))}
                         </select>
                     </div>
                     <button className='clear-btn' onClick={handleClearFilters}>Clear filters</button>
@@ -115,6 +121,7 @@ function Products() {
                     <button type="button" className="search-btn" onClick={handleSearchSubmit}>Search</button>
                 </div>
             </div>
+        
             <div className='product-list'>
                 {filteredProducts.map((product) => (
                     <ProductCard
