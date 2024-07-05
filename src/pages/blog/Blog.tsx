@@ -59,7 +59,7 @@ function Blog() {
                     <p>{article.description}</p>
                   </div>
                 </div>
-                <RouterLink className="button" to={`/blog-${article.id}`}>
+                <RouterLink className="button" to={`/blog-${article.id}`} onClick={handleClick}>
                   READ MORE
                 </RouterLink>
               </div>

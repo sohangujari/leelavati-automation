@@ -297,7 +297,7 @@ p.page-description {
 
 .info-code-content,
 .info-code-content a {
-  color: #b3b3b3;
+  color: #5b5b5b;
   margin-bottom: 30px;
 }
 
@@ -640,7 +640,7 @@ a.button:hover {
 }
 
 .one_fourth {
-  width: 19%;
+  width: 34%;
 }
 
 .three_fourth {
@@ -1077,7 +1077,7 @@ img.logo-icon {
   padding: 50px 20px;
 }
 
-.grid-item a.item-link:after {
+/* .grid-item a.item-link:after {
   content: "";
   display: block;
   position: absolute;
@@ -1088,7 +1088,7 @@ img.logo-icon {
   top: 0;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
+} */
 
 .portfolio-text-holder {
   position: absolute;
@@ -2754,5 +2754,5 @@ textarea:focus::placeholder {
 }
 
 .title img {
-  width: 60px;
+  width: 80px;
 }

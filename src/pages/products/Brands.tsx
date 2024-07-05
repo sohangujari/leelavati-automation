@@ -12,7 +12,7 @@ function Brands() {
             <div className='brands-grid'>
                 {brands.map(brand => (
                     <div key={brand.id} className='brand-item'>
-                        <Link to={`/products?brand=${brand.name.toLowerCase()}`} onClick={handleClick}>
+                        <Link to={`/product-category?brand=${brand.name.toLowerCase()}`} onClick={handleClick}>
                             <img src={brand.image} alt={brand.name} width="200px" height="200px" />
                         </Link>
                     </div>

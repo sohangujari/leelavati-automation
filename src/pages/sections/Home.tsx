@@ -45,7 +45,7 @@ function Home() {
           height: "100vh",
         }}
       >
-        <img className="dots" src={dots} alt="Dots" />
+        {/* <img className="dots" src={dots} alt="Dots" /> */}
         <ScrollLink
           className="button home-button"
           smooth
@@ -55,7 +55,7 @@ function Home() {
           CONTACT US
         </ScrollLink>
         <div className="home-full-width-background">
-          <img className="logo-icon" src={iconLogo} alt="Meelo Icon" />
+          {/* <img className="logo-icon" src={iconLogo} alt="Meelo Icon" /> */}
         </div>
       </div>
     </section>

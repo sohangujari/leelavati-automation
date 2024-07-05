@@ -65,7 +65,9 @@ function About() {
             <ul className="timeline-holder">
               {aboutData.events.map((e, i) => (
                 <li key={'about-event-' + i} className="timeline-event">
-                  <span className="timeline-circle"></span>
+                  {e.content !== '' && e.date !== '' && (
+                    <span className="timeline-circle"></span>
+                  )}
                   <div className="timeline-event-content">{e.content}</div>
                   <div className="timeline-event-date">{e.date}</div>
                 </li>

@@ -105,10 +105,10 @@ function Portfolio() {
                       onClick={() => handleOpenItem(item.order + 1)}
                     >
                       <img src={images[i]} alt="" />
-                      <div className="portfolio-text-holder">
+                      {/* <div className="portfolio-text-holder">
                         <p className="portfolio-desc">{item.info.desc}</p>
                         <p className="portfolio-title">{item.info.title}</p>
-                      </div>
+                      </div> */}
                     </a>
                   </div>
                 ))}

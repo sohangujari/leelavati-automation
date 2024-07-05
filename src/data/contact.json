@@ -24,6 +24,13 @@
       }
     },
     {
+      "title": "EMAIL",
+      "link": {
+        "to": "email:manoj@leelavati.com",
+        "text": "manoj@leelavati.com"
+      }
+    },    
+    {
       "title": "PHONE",
       "link": {
         "to": "tel:9820062906",
