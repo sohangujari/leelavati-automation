@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface ProductCardProps {
     productName: string;
     productDescription: string;
     price: string;
     image: string;
+    id: number;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({
@@ -12,6 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
     productDescription,
     price,
     image,
+    id,
 }) => {
     return (
         <div className="product-card">
@@ -21,7 +24,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 <p>{productDescription}</p>
                 <div className="product-container">
                     <span className="price">₹{price}</span>
-                    <button className="details-btn">View Details</button>
+                    <Link to={`/product-details/${id}`} className="details-btn">View Details</Link>
                 </div>
             </div>
         </div>

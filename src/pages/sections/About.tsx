@@ -17,11 +17,11 @@ function About() {
   return (
     <section id="about" className="section">
       <div className="section-wrapper block content-1170 center-relative">
-        <div className="page-title-holder">
+        {/* <div className="page-title-holder">
           <p className="up-title-text">{aboutData.id}</p>
           <h2 className="entry-title">{aboutData.title}</h2>
           <p className="page-description">{aboutData.description}</p>
-        </div>
+        </div> */}
 
         <div className="content-wrapper">
           <p>

@@ -130,6 +130,7 @@ function Products() {
                         productDescription={product.productDescription}
                         price={product.price}
                         image={product.image}
+                        id={product.id}
                     />
                 ))}
             </div>
