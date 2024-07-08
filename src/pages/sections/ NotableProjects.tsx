@@ -19,9 +19,12 @@ function  NotableProjects() {
         <div className="content-wrapper">
         <div className="image-grid">
           {notableProjectsData.projects.map((project, index) => (
+            <div>
             <div className="image-container" key={index}>
               <img src={project.image} alt={`Notable Project ${index + 1}`} />
               <div className="hover-text">{project.description}</div>
+            </div>
+            <span>{project.caption}</span>
             </div>
           ))}
         </div>

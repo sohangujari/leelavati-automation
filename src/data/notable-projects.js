@@ -8,19 +8,23 @@ const NotableProjects = {
     "title": "Notable Projects",
     "projects": [
       {
-        "description": "TAJ Hotels, Colaba, Mumbai Installed a Fire Monitoring System.",
+        "caption": "TAJ Hotels, Colaba, Mumbai.",
+        "description": "Installed a Fire Monitoring System.",
         "image": notableImage1,
       },
       {
-        "description": "DY Patil College Installed Boom Barriers for Uniform Flow of Vehicles and a Refractory Skylight Parking System.",
+        "caption": "DY Patil College",
+        "description": "Installed Boom Barriers for Uniform Flow of Vehicles and a Refractory Skylight Parking System.",
         "image": notableImage2,
       },
       {
-        "description": "Barclays Bank, Pune: 1000 Car Parking Sensors.",
+        "caption": "Barclays Bank, Pune",
+        "description": "1000 Car Parking Sensors.",
         "image": notableImage3,
       },
       {
-        "description": "Infosys Chandigarh: Car Parking Counting Sensor System with Data Analytics.",
+        "caption": "Infosys Chandigarh",
+        "description": "Car Parking Counting Sensor System with Data Analytics.",
         "image": notableImage4,
       }
     ]
