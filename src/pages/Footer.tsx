@@ -8,8 +8,7 @@ import logo from "../assets/images/logo.png";
 import {
   faFacebookF,
   faTwitter,
-  faBehance,
-  faDribbble,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 // ---------------
@@ -31,17 +30,14 @@ function Footer() {
         </div>
 
         <div className="social-holder">
-          <a href="#">
+          <a href="https://x.com/lapl5">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/leelavatiautomation/">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faBehance} />
-          </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faDribbble} />
+          <a href="https://www.youtube.com/@leelavatiautomationplc5732">
+            <FontAwesomeIcon icon={faYoutube} />
           </a>
         </div>
 

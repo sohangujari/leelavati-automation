@@ -102,7 +102,7 @@ function Portfolio() {
                     <a
                       className="item-link ajax-portfolio"
                       style={{ position: 'relative' }}
-                      onClick={() => handleOpenItem(item.order + 1)}
+                      // onClick={() => handleOpenItem(item.order + 1)}
                     >
                       <img src={images[i]} alt="" />
                       {/* <div className="portfolio-text-holder">

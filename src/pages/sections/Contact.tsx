@@ -104,14 +104,14 @@ function Contact() {
         </div>
 
         <div className="content-wrapper">
-          {/* <div className="one_fourth">
+          <div className="one_fourth">
             {contactData.paragrapgs.map((p, i) => (
               <Fragment key={"contact-paragraph-" + i}>
                 <p dangerouslySetInnerHTML={{ __html: markdownToHTML(p) }} />
                 {contactData.paragrapgs.length > i + 1 && <br />}
               </Fragment>
             ))}
-          </div> */}
+          </div>
 
           <div className="one_fourth">
             {contactData.contactInfo.map((info, i) => (

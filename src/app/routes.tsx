@@ -16,6 +16,7 @@ import Products from '../pages/products/Products';
 import Brands from '../pages/products/Brands';
 import ProductCategory from '../pages/products/ProductCategory';
 import ProductSubCategory from '../pages/products/ProductSubCategory';
+import ProductDetails from '../pages/products/ProductDetails';
 
 // ------------------
 
@@ -110,6 +111,10 @@ const routes: RoutesType[] = [
   {
     path: '/brands',
     element: renderWithNav(<Brands />, false),
+  },
+  {
+    path: '/product-details/:id',
+    element: renderWithNav(<ProductDetails />, false),
   },
 ];
 
