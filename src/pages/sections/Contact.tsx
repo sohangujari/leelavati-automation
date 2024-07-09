@@ -119,9 +119,15 @@ function Contact() {
                 <p className="info-code-title">{info.title}</p>
                 <p className="info-code-content">
                   {info.link ? (
-                    <a href={info.link.to}>{info.link.text}</a>
+                    Array.isArray(info.link) ? (
+                      info.link.map((item, index) => (
+                        <a key={index} href={item.to}>{item.text}<br /></a>
+                      ))
+                    ) : (
+                      <a href={info.link.to}>{info.link.text}</a>
+                    )
                   ) : (
-                    info?.value
+                    info.value
                   )}
                 </p>
               </div>

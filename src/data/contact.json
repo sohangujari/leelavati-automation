@@ -25,17 +25,29 @@
     },
     {
       "title": "EMAIL",
-      "link": {
-        "to": "email:manoj@leelavati.com",
-        "text": "manoj@leelavati.com"
-      }
-    },    
+      "link": [
+        {
+          "to": "email:manoj@leelavati.com",
+          "text": "manoj@leelavati.com"
+        },
+        {
+          "to": "email:leelavatiautomation@gmail.com",
+          "text": "leelavatiautomation@gmail.com"
+        }
+      ]
+    },
     {
       "title": "PHONE",
-      "link": {
-        "to": "tel:9820062906",
-        "text": "+91 9820062906"
-      }
+      "link": [
+        {
+          "to": "tel:9820062906",
+          "text": "+91 9820062906"
+        },
+        {
+          "to": "tel:9372355842",
+          "text": "+91 9372355842"
+        }
+      ]
     },
     {
       "title": "HOURS",

@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Images
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo1.png";
 
 // Icons
 import {
@@ -22,11 +22,13 @@ function Footer() {
         </div>
 
         <div className="footer-mail">
-          <a href="mailto:hello@site.com">manoj@leelavati.com</a>
+          <a href="mailto:hello@site.com">manoj@leelavati.com</a><br />
+          <a href="mailto:leelavatiautomation@gmail.com">leelavatiautomation@gmail.com</a>
         </div>
 
         <div className="footer-phone">
-          <a href="tel:9820062906">+91 9820062906</a>
+          <a href="tel:9820062906">+91 9820062906 | </a>
+          <a href="tel:9372355842">+91 9372355842</a>
         </div>
 
         <div className="social-holder">

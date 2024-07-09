@@ -4,7 +4,7 @@ import { Link as RouterLink } from "react-router-dom";
 import Modal from '../pages/sections/modal';
 
 // Images
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo1.png";
 
 // Data
 import navData from "../data/navbar.json";
