@@ -506,6 +506,17 @@
     line-height: 38px;
   }
 
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .title img {
+    width: 40%;
+  }
+
   .footer-mail {
     font-size: 30px;
   }
