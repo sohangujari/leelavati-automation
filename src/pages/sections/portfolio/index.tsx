@@ -18,11 +18,12 @@ import portfolio1 from '../../../assets/images/portfolio/portfolio_item_01.jpg';
 import portfolio2 from '../../../assets/images/portfolio/portfolio_item_03.jpg';
 import portfolio3 from '../../../assets/images/portfolio/portfolio_item_02.jpg';
 import portfolio4 from '../../../assets/images/portfolio/portfolio_item_04.jpg';
+import portfolio5 from '../../../assets/images/portfolio/portfolio_item_05.jpg';
 
 // --------------
 
 function Portfolio() {
-  const images: string[] = [portfolio1, portfolio2, portfolio3, portfolio4];
+  const images: string[] = [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5];
 
   // Portfolio item to be shown (change rendered different components in item folder)
   const [portfolioItem, setPortfolioItem] = useState<number>(0);

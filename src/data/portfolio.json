@@ -39,6 +39,14 @@
         "desc": "ARCHITECTURE",
         "title": "Pillars"
       }
+    },
+    {
+      "order": 4,
+      "className": "p_fifth",
+      "info": {
+        "desc": "ARCHITECTURE",
+        "title": "Pillars"
+      }
     }
   ]
 }
