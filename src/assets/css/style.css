@@ -1067,6 +1067,10 @@ img.logo-icon {
   width: 100%;
 }
 
+.grid-item.p_fifth {
+  width: 100%;
+}
+
 .grid-item img {
   width: 100% !important;
   height: auto;
@@ -1296,7 +1300,7 @@ body .site-wrapper .more-posts-portfolio-loading {
 
 .latest-posts-background-featured-image-holder {
   width: 100%;
-  height: 450px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
