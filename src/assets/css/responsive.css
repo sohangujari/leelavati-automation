@@ -494,6 +494,22 @@
   .portfolio-item-wrapper {
     margin-top: 50px;
   }
+  .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .product-main {
+    margin: 40px 20px;
+    margin-bottom: 150px;
+  }
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -522,6 +538,24 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     padding-bottom: 60px;
+  }
+
+  .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .product-main {
+    margin: 40px 10px;
+    margin-bottom: 150px;
+  }
+
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
   }
 
   .footer-mail {

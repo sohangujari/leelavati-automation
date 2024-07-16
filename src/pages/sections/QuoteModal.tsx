@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LOGO from "../../assets/images/i.ico"
+import LOGO from "../../assets/images/icon_logo_form.png"
 
 type ModalProps = {
     closeModal: () => void;

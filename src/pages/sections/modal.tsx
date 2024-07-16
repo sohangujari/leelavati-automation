@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import './Modal.css'; // Import your CSS file if not using inline styles
-import LOGO from "../../assets/images/i.ico"
+import LOGO from "../../assets/images/icon_logo_form.png"
 
 type ModalProps = {
     closeModal: () => void;
@@ -10,6 +10,7 @@ const Modal = ({ closeModal }: ModalProps) => {
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [name, setName] = useState("");
+    const [message, setMessage] = useState("");
 
 
     const handleSubmit = (event: React.FormEvent) => {
@@ -64,6 +65,16 @@ const Modal = ({ closeModal }: ModalProps) => {
                         onChange={(e) => setPhone(e.target.value)}
                         required
                         className="inputmodal"
+                    />
+                    <label htmlFor="message" className='text'>Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        required
+                        className="inputmodal"
+                        rows={4}
                     />
                     <button type="submit" className="modalbutton">Submit</button>
                 </form>
