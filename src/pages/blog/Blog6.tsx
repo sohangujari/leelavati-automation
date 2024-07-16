@@ -8,9 +8,8 @@ import "swiper/css/pagination";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Images
-import img1 from "../../assets/images/blogs/posts/images_01/post_image_01.jpg";
-import img2 from "../../assets/images/blogs/posts/images_01/post_image_02.jpg";
-import img3 from "../../assets/images/blogs/posts/images_01/post_image_03.jpg";
+import img1 from "../../assets/images/blogs/posts/images_06/post_image_01.png";
+import img2 from "../../assets/images/blogs/posts/images_06/post_image_02.png";
 
 // Icons
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
@@ -39,9 +38,6 @@ function Blog1() {
               </SwiperSlide>
               <SwiperSlide>
                 <img src={img2} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={img3} />
               </SwiperSlide>
             </Swiper>
           </div>
