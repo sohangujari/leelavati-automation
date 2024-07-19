@@ -13,22 +13,24 @@ function Home() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
       document.documentElement.style.setProperty('--scroll-position', `${scrollPosition}s`);
-
+  
       const logoIcon = document.querySelector(".logo-icon");
-      const rect = logoIcon.getBoundingClientRect();
-      const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
-      if (isInView) {
-        document.body.classList.add("animated");
-      } else {
-        document.body.classList.remove("animated");
+      if (logoIcon) { // Check if logoIcon is not null
+        const rect = logoIcon.getBoundingClientRect();
+        const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
+        if (isInView) {
+          document.body.classList.add("animated");
+        } else {
+          document.body.classList.remove("animated");
+        }
       }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, []);  
 
   return (
     <section id="home" className="section no-page-title">
