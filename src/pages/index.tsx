@@ -46,7 +46,7 @@ function Landing() {
         <Video />
         <Portfolio />
         <About />
-        <Clients />
+        {/* <Clients /> */}
         <News />
         <Milestones />
         {/* <Skills /> */}

@@ -1,40 +1,56 @@
-// Data
+import { useEffect } from "react";
 import homeData from "../../data/home.json";
-
-// Images
 import dots from "../../assets/images/dots.png";
-import iconLogo from "../../assets/images/icon_logo1.png";
-import logo from "../../assets/images/icon_logo2.png"
-// import mainImage01 from "../../assets/images/home/main_img_01.jpg";
+import iconLogo from "../../assets/images/icon_logo2.png";
+import logo from "../../assets/images/icon_logo2.png";
 import mainImage01 from "../../assets/images/smart-industry/4.avif";
-import mainVideo from "../../assets/Main Video.mp4"
+import mainVideo from "../../assets/Main Video.mp4";
 import { markdownToHTML } from "../../utils/converter";
 import { Link as ScrollLink } from "react-scroll";
 
-// ---------------
-
 function Home() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+      document.documentElement.style.setProperty('--scroll-position', `${scrollPosition}s`);
+
+      const logoIcon = document.querySelector(".logo-icon");
+      const rect = logoIcon.getBoundingClientRect();
+      const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
+      if (isInView) {
+        document.body.classList.add("animated");
+      } else {
+        document.body.classList.remove("animated");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section id="home" className="section no-page-title">
       <div className="section-wrapper block content-1170 center-relative">
         <div className="content-wrapper">
           <div className="title">
-        <img src={logo} alt="" />
-        <div className="title-text">
-            <h1
-              className="entry-title big-title"
-              dangerouslySetInnerHTML={{
-                __html: markdownToHTML(homeData.welcomeText),
-              }}
-            />
-            <p
-            className="site-description"
-            dangerouslySetInnerHTML={{
-              __html: markdownToHTML(homeData.description),
-            }}
-          />
+            <img src={logo} alt="" />
+            <div className="title-text">
+              <h1
+                className="entry-title big-title"
+                dangerouslySetInnerHTML={{
+                  __html: markdownToHTML(homeData.welcomeText),
+                }}
+              />
+              <p
+                className="site-description"
+                dangerouslySetInnerHTML={{
+                  __html: markdownToHTML(homeData.description),
+                }}
+              />
+            </div>
           </div>
-        </div>
           <br />
         </div>
       </div>
@@ -71,8 +87,6 @@ function Home() {
             zIndex: "0",
           }}
         />
-
-        {/* <img className="dots" src={dots} alt="Dots" /> */}
         <ScrollLink
           className="button home-button"
           smooth
@@ -82,10 +96,13 @@ function Home() {
           CONTACT US
         </ScrollLink>
         <div className="home-full-width-background">
-          {/* <img className="logo-icon" src={iconLogo} alt="Meelo Icon" /> */}
+          <img
+            className="logo-icon"
+            src={iconLogo}
+            alt="Meelo Icon"
+          />
         </div>
       </div>
-      
     </section>
   );
 }
