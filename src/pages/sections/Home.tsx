@@ -34,7 +34,7 @@ function Home() {
 
   return (
     <section id="home" className="section no-page-title">
-      <div className="section-wrapper block content-1170 center-relative">
+      {/* <div className="section-wrapper block content-1170 center-relative">
         <div className="content-wrapper">
           <div className="title">
             <img src={logo} alt="" />
@@ -55,7 +55,7 @@ function Home() {
           </div>
           <br />
         </div>
-      </div>
+      </div> */}
       <div
         className="home-full-width"
         style={{

@@ -80,7 +80,7 @@ body {
 .modal-content {
   background-color: #fff;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   border: 1px solid #888;
   width: 100%;
   max-width: 500px;
@@ -960,8 +960,9 @@ body .sm-clean li.current_page_item > a {
 
 .home-button {
   position: absolute;
-  top: -35px;
-  left: 70%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   /* z-index: 80; */
 }
 
