@@ -105,9 +105,9 @@ body {
 .logo-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 2px; 
+  margin-bottom: 2px;
   /* background-color: #aaa7a7; */
-  padding: 10px;/* Center the logo and add space below */
+  padding: 10px; /* Center the logo and add space below */
 }
 
 .logo {
@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Roboto", sans-serif;
-font-size: 14px;
+  font-size: 14px;
 }
 
 label {
@@ -128,7 +128,6 @@ label {
   /* font-weight: bold; */
   align-self: flex-start;
   font-family: "Roboto", sans-serif;
-
 }
 
 .inputmodal {
@@ -136,7 +135,9 @@ label {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: calc(100% - 22px); /* Adjusted width to accommodate padding and border */
+  width: calc(
+    100% - 22px
+  ); /* Adjusted width to accommodate padding and border */
   max-width: 100%;
   box-sizing: border-box; /* Ensure padding and border are included in width calculation */
 }
@@ -146,14 +147,16 @@ label {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: calc(100% - 22px); /* Adjusted width to accommodate padding and border */
+  width: calc(
+    100% - 22px
+  ); /* Adjusted width to accommodate padding and border */
   max-width: 100%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   background-color: #d82c2c;
   color: white;
 }
-.modalbutton:hover{
-  background:#fff;
+.modalbutton:hover {
+  background: #fff;
   color: black;
   border: 1px solid black;
 }
@@ -181,7 +184,7 @@ body pre {
 }
 
 .site-wrapper img {
-  max-width:100%;
+  max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
@@ -685,7 +688,7 @@ a.button:hover {
   top: 0;
   position: fixed;
   -webkit-transform: translateZ(0);
-  background-color: rgba(249, 249, 249, 0.60);
+  background-color: rgba(249, 249, 249, 0.6);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
@@ -707,7 +710,7 @@ a.button:hover {
 
 .header-logo img {
   width: 57px;
-  height: 122px;
+  height: 78px;
 }
 
 .menu-holder {
@@ -2338,7 +2341,7 @@ footer ul {
 
 .footer-logo img {
   width: 57px;
-  height: 122px;
+  height: 78px;
   margin-bottom: 70px;
 }
 

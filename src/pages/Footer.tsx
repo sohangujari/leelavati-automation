@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Images
-import logo from "../assets/images/logo1.png";
+import logo from "../assets/images/logo2.png";
 
 // Icons
 import {
