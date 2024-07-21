@@ -783,7 +783,7 @@ a.button:hover {
 .sm-clean a:focus,
 .sm-clean a:active {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   transition: color 0.3s ease, background-color 0.3s ease;
   padding: 15px;
   letter-spacing: 0.5px;
@@ -948,10 +948,56 @@ body .sm-clean li.current_page_item > a {
 }
 
 .home-full-width-background {
-  /* background-image: url(images/main_img_01.jpg); */
+  background-image: url(images/main_img_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-wrapper {
+  padding: 20px;
+  max-width: 1170px;
+  width: 100%;
+  text-align: left;
+}
+
+.content-wrapper {
+  text-align: left;
+}
+
+.content-wrapper img {
+  max-width: 150px;
+  height: auto;
+}
+
+.photo-content-wrapper {
+  max-width: none;
+  height: none;
+}
+
+.title {
+  margin-bottom: 2px;
+}
+
+.entry-title {
+  font-size: 3em;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.site-description {
+  font-size: 1.2em;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.button.home-button {
+  font-size: 1em;
+  color: white;
+  padding: 15px 30px;
 }
 
 .home-full-width {
@@ -959,11 +1005,7 @@ body .sm-clean li.current_page_item > a {
 }
 
 .home-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  /* z-index: 80; */
+  border-radius: 5px;
 }
 
 img.dots {

@@ -4,7 +4,7 @@
   "description": "CHECK OUR NEW LAUNCH",
   "articles": [
     {
-      "to": "/single",
+      "to": "/",
       "tags": ["WM20"],
       "info": {
         "title": "1 CHANNEL SPDT RELAY OUTPUT MODULE",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "to": "/single",
+      "to": "/",
       "tags": ["G34302249230"],
       "info": {
         "title": "2 CHANNEL SPDT RELAY OUTPUT MODULE",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "to": "/single",
+      "to": "/",
       "tags": ["G34304443824"],
       "info": {
         "title": "4 CHANNEL SPST RELAY OUTPUT MODULE",

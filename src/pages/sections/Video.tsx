@@ -9,7 +9,7 @@ function Video() {
         </div>
 
         <div className="content-wrapper">
-          <video width="100%" controls controlsList="nodownload">
+          <video width="100%" style={{ borderRadius: '10px' }} controls controlsList="nodownload">
             <source src={videoSource} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
