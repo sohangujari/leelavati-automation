@@ -988,13 +988,14 @@ body .sm-clean li.current_page_item > a {
 .entry-title {
   font-size: 3em;
   margin-bottom: 2px;
-  color: black;
+  color: white;
 }
 
 .site-description {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 400;
   margin-bottom: 2px;
-  color: black;
+  color: white;
 }
 
 .button.home-button {
