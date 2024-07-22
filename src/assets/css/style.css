@@ -785,8 +785,8 @@ a.button:hover {
 .sm-clean a:hover,
 .sm-clean a:focus,
 .sm-clean a:active {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   transition: color 0.3s ease, background-color 0.3s ease;
   padding: 15px;
   letter-spacing: 0.5px;
@@ -986,20 +986,20 @@ body .sm-clean li.current_page_item > a {
 }
 
 .entry-title {
-  font-size: 3em;
-  margin-bottom: 2px;
+  font-size: 2em;
+  margin-bottom: 1px;
   color: white;
 }
 
 .site-description {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 400;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   color: white;
 }
 
 .button.home-button {
-  font-size: 1em;
+  font-size: 0.8em;
   color: white;
   padding: 15px 30px;
 }
