@@ -785,7 +785,7 @@ a.button:hover {
 .sm-clean a:hover,
 .sm-clean a:focus,
 .sm-clean a:active {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   transition: color 0.3s ease, background-color 0.3s ease;
   padding: 15px;
@@ -968,11 +968,11 @@ body .sm-clean li.current_page_item > a {
 }
 
 .content-wrapper {
-  text-align: left;
+  text-align: center;
 }
 
 .content-wrapper img {
-  max-width: 150px;
+  width: auto;
   height: auto;
 }
 
@@ -2815,16 +2815,17 @@ textarea:focus::placeholder {
   display: flex;
   align-items: center;
   gap: 20px;
+  justify-content: center;
 }
 
 .title-text {
   display: flex;
   flex-direction: column;
-  align-items: start;
 }
 
 .title img {
-  width: 14%;
+  width: 60%;
+  padding-bottom: 20px;
 }
 
 .details-section {

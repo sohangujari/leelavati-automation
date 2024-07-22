@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import homeData from "../../data/home.json";
 import dots from "../../assets/images/dots.png";
-import iconLogo from "../../assets/images/icon_logo2.png";
+import iconLogo from "../../assets/images/Leelavati_Logo.png";
 import logo from "../../assets/images/icon_logo4.png";
 import mainImage01 from "../../assets/images/smart-industry/4.avif";
 import mainVideo from "../../assets/Main Video.mp4";
@@ -98,15 +98,16 @@ function Home() {
         <div className="home-full-width-background">
           <div className="section-wrapper block content-1170 center-relative">
             <div className="content-wrapper">
-            <img src={logo} alt="" />
               <div className="title">
+                  {/* <img src={logo} alt="" /> */}
+                  <img src={iconLogo} alt="" />
                 <div className="title-text">
-                  <h1
+                  {/* <h1
                     className="entry-title big-title"
                     dangerouslySetInnerHTML={{
                       __html: markdownToHTML(homeData.welcomeText),
                     }}
-                  />
+                  /> */}
                   {/* <p
                     className="site-description"
                     dangerouslySetInnerHTML={{
