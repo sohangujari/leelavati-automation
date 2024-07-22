@@ -107,12 +107,12 @@ function Home() {
                       __html: markdownToHTML(homeData.welcomeText),
                     }}
                   />
-                  <p
+                  {/* <p
                     className="site-description"
                     dangerouslySetInnerHTML={{
                       __html: markdownToHTML(homeData.description),
                     }}
-                  />
+                  /> */}
                 </div>
 
               </div>
