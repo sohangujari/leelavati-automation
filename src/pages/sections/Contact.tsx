@@ -113,27 +113,6 @@ function Contact() {
             ))}
           </div>
 
-          <div className="one_fourth">
-            {contactData.contactInfo.map((info, i) => (
-              <div key={"contact-info-" + i} className="info-code">
-                <p className="info-code-title">{info.title}</p>
-                <p className="info-code-content">
-                  {info.link ? (
-                    Array.isArray(info.link) ? (
-                      info.link.map((item, index) => (
-                        <a key={index} href={item.to}>{item.text}<br /></a>
-                      ))
-                    ) : (
-                      <a href={info.link.to}>{info.link.text}</a>
-                    )
-                  ) : (
-                    info.value
-                  )}
-                </p>
-              </div>
-            ))}
-          </div>
-
           <div className="one_half last">
             <div className="contact-form">
               <form action="#" method="post" onSubmit={handleSubmit}>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import LOGO from "../../assets/images/icon_logo_form.png"
+import LOGO from "../../assets/images/icon_logo_form.png";
+import close from "../../assets/images/x.svg";
 
 type ModalProps = {
     closeModal: () => void;
@@ -24,10 +25,18 @@ const QuoteModal = ({ closeModal }: ModalProps) => {
         closeModal();
     };
 
+    const handleOverlayClick = (event: React.MouseEvent) => {
+        if (event.target === event.currentTarget) {
+            closeModal();
+        }
+    };
+
     return (
-        <div className="modal-overlay">
-            <div className="modal-content">
-                <span className="close-button" onClick={closeModal}>&times;</span>
+        <div className="modal-overlay" onClick={handleOverlayClick}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                <span className="close-button" onClick={closeModal}>
+                    <img src={close} alt="close" />
+                </span>
                 <div className="logo-container">
                     <img src={LOGO} alt="Company Logo" className="logo"/>
                 </div>

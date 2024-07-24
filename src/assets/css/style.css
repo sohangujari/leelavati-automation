@@ -68,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 2;
+  z-index: 98;
   left: 0;
   top: 0;
   width: 100%;
@@ -80,7 +80,7 @@ body {
 .modal-content {
   background-color: #fff;
   padding: 20px;
-  margin-top: 150px;
+  margin-top: 200px;
   border: 1px solid #888;
   width: 100%;
   max-width: 500px;
@@ -94,10 +94,10 @@ body {
 .close-button {
   color: #aaa;
   position: absolute;
-  top: 1px;
+  top: 8px;
   /* margin-bottom: 4px; */
   right: 16px;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -294,7 +294,7 @@ p.page-description {
 
 .info-code-title {
   font-size: 16px;
-  color: #000;
+  color: #fff;
   letter-spacing: 2px;
   margin-bottom: 0;
   line-height: 120%;
@@ -302,7 +302,7 @@ p.page-description {
 
 .info-code-content,
 .info-code-content a {
-  color: #000;
+  color: #fff;
   font-size: medium;
   margin-bottom: 30px;
 }
@@ -621,6 +621,8 @@ a.button:hover {
   position: relative;
   margin-bottom: 30px;
   color: #000;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .last {
@@ -635,7 +637,7 @@ a.button:hover {
 }
 
 .one_half {
-  width: 46%;
+  width: 50%;
 }
 
 .one_third {
@@ -647,7 +649,7 @@ a.button:hover {
 }
 
 .one_fourth {
-  width: 19%;
+  width: 30%;
 }
 
 .three_fourth {
@@ -683,7 +685,7 @@ a.button:hover {
 }
 
 .header-holder {
-  z-index: 99 !important;
+  z-index: 96 !important;
   width: 100% !important;
   top: 0;
   position: fixed;

@@ -7,26 +7,26 @@
       "to": "/",
       "tags": ["WM20"],
       "info": {
-        "title": "1 CHANNEL SPDT RELAY OUTPUT MODULE",
-        "date": "LOAD UP TO 10 A/250 V AC",
+        "title": "Power analyzer for three-phase systems",
+        "date": "",
         "author": "CARLO GAVAZZI"
       }
     },
     {
       "to": "/",
-      "tags": ["G34302249230"],
+      "tags": ["WM15"],
       "info": {
-        "title": "2 CHANNEL SPDT RELAY OUTPUT MODULE",
-        "date": "LOAD UP TO 10 A/250 V AC",
+        "title": "Power analyzer for three-phase systems",
+        "date": "",
         "author": "CARLO GAVAZZI"
       }
     },
     {
       "to": "/",
-      "tags": ["G34304443824"],
+      "tags": ["LD33CEBI10xx"],
       "info": {
-        "title": "4 CHANNEL SPST RELAY OUTPUT MODULE",
-        "date": "LOAD UP TO 5 A/250 V AC",
+        "title": "Photoelectric Background suppression laser sensors with Time Of Flight",
+        "date": "",
         "author": "CARLO GAVAZZI"
       }
     }

@@ -4,7 +4,12 @@ import { Link as RouterLink } from 'react-router-dom';
 // Images
 import img1 from '../../assets/images/smart-industry/product_1.png';
 import img2 from '../../assets/images/smart-industry/product_2.webp';
-import img3 from '../../assets/images/smart-industry/product_3.png';
+import img3 from '../../assets/images/smart-industry/product_3.jpg';
+
+// Pdfs
+import pdf1 from '../../assets/pdf/WM20_DS_ENG.pdf';
+import pdf2 from '../../assets/pdf/WM15_DS_ENG.pdf';
+import pdf3 from '../../assets/pdf/LD33CEBI10xx.pdf';
 
 // Data
 import newsData from '../../data/news.json';
@@ -13,10 +18,12 @@ import newsData from '../../data/news.json';
 
 function News() {
   const images: string[] = [img1, img2, img3];
+  const pdfs: string[] = [pdf1, pdf2, pdf3];
 
-  /**
-   * Returning window to (0 position) when going to single blog page
-   */
+  const handlePdfClick = (url: string) => {
+    window.open(url, "_blank");
+  };
+
   const handleClick = () => {
     window.scroll(0, 0);
   };
@@ -36,6 +43,7 @@ function News() {
               <article
                 key={'post-' + i}
                 className="relative blog-item-holder-scode"
+                onClick={() => handlePdfClick(pdfs[i])}
               >
                 <div className="post-thumbnail">
                   <RouterLink to={post.to} onClick={handleClick}>
