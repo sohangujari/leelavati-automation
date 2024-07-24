@@ -49,7 +49,7 @@ function About() {
                 <br />
               </Fragment>
             ))}
-            <div className="button-holder text-left">
+            <div className="button-holder text-center">
               <ScrollLink
                 className="button"
                 smooth

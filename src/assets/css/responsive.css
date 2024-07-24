@@ -207,7 +207,7 @@
   }
 
   .section-wrapper {
-    padding: 70px 0;
+    padding: 40px 0;
   }
 
   .blog-item-holder {
@@ -327,6 +327,26 @@
   .button.home-button {
     font-size: 0.8em;
     padding: 10px 20px;
+  }
+
+  .home-full-width {
+    height: 72vh;
+  }
+
+  .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+
+  a.button {
+    padding: 13px 20px;
   }
 
   .grid-item,
