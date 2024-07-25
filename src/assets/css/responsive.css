@@ -87,6 +87,17 @@
     margin-right: 6%;
   }
 
+  .timeline-event-date {
+    left: -90px;
+  }
+
+  .times-font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #E30016;
+  }
+
   .one_half {
     width: 40%;
   }
