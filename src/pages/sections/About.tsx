@@ -38,7 +38,7 @@ function About() {
 
           <div className="one_half">
             <p
-              className="small-text"
+              className="small-text times-font"
               dangerouslySetInnerHTML={{
                 __html: markdownToHTML(aboutData.smallText),
               }}

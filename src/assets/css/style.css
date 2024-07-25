@@ -323,6 +323,13 @@ p.page-description {
   padding-bottom: 10px;
 }
 
+.times-font {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #E30016;
+}
+
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -359,8 +366,8 @@ p.page-description {
   line-height: 14px;
   /* font-weight: 700; */
   color: #fff;
-  background-color: #dc6041;
-  border: 2px solid #dc6041;
+  background-color: #E30016;
+  border: 2px solid #E30016;
   display: inline-block;
   text-align: center;
   padding: 10px 20px;
@@ -374,7 +381,7 @@ p.page-description {
 
 .read-more-button:hover {
   background-color: #fff;
-  color: #dc6041;
+  color: #E30016;
 }
 
 a.button {
@@ -383,8 +390,8 @@ a.button {
   line-height: 14px;
   font-weight: 700;
   color: #fff;
-  background-color: #dc6041;
-  border: 2px solid #dc6041;
+  background-color: #E30016;
+  border: 2px solid #E30016;
   display: inline-block;
   text-align: center;
   padding: 27px 40px;
@@ -398,7 +405,7 @@ a.button {
 
 a.button:hover {
   background-color: #fff;
-  color: #dc6041;
+  color: #E30016;
 }
 
 /* ===================================
@@ -637,7 +644,7 @@ a.button:hover {
 }
 
 .one_half {
-  width: 50%;
+  width: 40%;
 }
 
 .one_third {
@@ -817,7 +824,7 @@ body .sm-clean li a.active,
 body .sm-clean li.current-page-ancestor > a,
 body .sm-clean li.current_page_ancestor > a,
 body .sm-clean li.current_page_item > a {
-  color: #dc6041;
+  color: #E30016;
 }
 
 .sm-clean li {
@@ -1070,7 +1077,7 @@ img.logo-icon {
 }
 
 .service-txt p {
-  text-align: justify;
+  text-align: center;
 }
 
 .service-num {
@@ -1925,8 +1932,8 @@ ul.timeline-holder:before {
   line-height: 14px;
   font-weight: 700;
   color: #fff;
-  background-color: #dc6041;
-  border: 2px solid #dc6041;
+  background-color: #E30016;
+  border: 2px solid #E30016;
   display: block;
   width: 100%;
   text-align: center;
@@ -1941,7 +1948,7 @@ ul.timeline-holder:before {
 
 .contact-form input[type="submit"]:hover {
   background-color: transparent;
-  color: #dc6041;
+  color: #E30016;
 }
 
 /* ===================================
@@ -2599,7 +2606,7 @@ textarea:focus::placeholder {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(255, 60, 60, 0.6);
+  background-color: rgba(255, 60, 60, 0.9);
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -2663,12 +2670,12 @@ textarea:focus::placeholder {
 }
 
 .price {
-  color: #dc6041;
+  color: #E30016;
   font-weight: 500;
 }
 
 .details-btn {
-  background-color: #dc6041;
+  background-color: #E30016;
   color: #fff;
   border: none;
   padding: 10px 16px;
@@ -2679,7 +2686,8 @@ textarea:focus::placeholder {
 }
 
 .details-btn:hover {
-  background-color: #c94e2c;
+  background-color: #E30016;
+  color: #fff;
 }
 
 .product-main {
@@ -2751,7 +2759,7 @@ textarea:focus::placeholder {
 }
 
 .search-btn:hover {
-  background-color: #c94e2c;
+  background-color: #E30016;
 }
 
 .product-list {
@@ -2913,4 +2921,22 @@ body {
   body.animated .logo-icon {
     animation-play-state: running;
   }
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0px 115px;
+}
+
+.home-section img:nth-child(1) {
+  width: 50%;
+  height: fit-content;
+}
+
+.home-section img:nth-child(2) {
+  width: 30%;
+  height: fit-content;
 }

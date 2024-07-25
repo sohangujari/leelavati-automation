@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import mainVideo from "../../assets/Main Video.mp4";
+import mainLogo from "../../assets/images/mainLogo.png";
+import mainCertificate from "../../assets/images/mainCertificate.png";
 
 function Home() {
   useEffect(() => {
@@ -31,11 +33,17 @@ function Home() {
   }, []);
 
   return (
+    <>
     <div className="home-full-width">
       <video autoPlay loop muted className="bg-video">
         <source src={mainVideo} type="video/mp4" />
       </video>
     </div>
+    <div className="home-section">
+      <img src={mainLogo} alt="Main Logo" />
+      <img src={mainCertificate} alt="Main Certificate" />
+    </div>
+    </>
   );
 }
 
