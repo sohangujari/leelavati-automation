@@ -103,7 +103,7 @@ function Contact() {
           <p className="page-description">{contactData.description}</p>
         </div>
 
-        <div className="content-wrapper">
+        {/* <div className="content-wrapper">
           <div className="one_fourth">
             {contactData.paragrapgs.map((p, i) => (
               <Fragment key={"contact-paragraph-" + i}>
@@ -175,7 +175,7 @@ function Contact() {
             </div>
           </div>
           <div className="clear"></div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

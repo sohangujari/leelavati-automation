@@ -562,6 +562,13 @@
     gap: 40px;
     padding-top: 60px;
   }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0px 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
