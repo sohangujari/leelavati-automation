@@ -2340,6 +2340,7 @@ footer ul {
 
 .footer {
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   line-height: 36px;
   padding-top: 75px;
   padding-bottom: 60px;
@@ -2960,6 +2961,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.3s ease;
+  margin-left: 10%;
 }
 
 .icon-button:hover {
@@ -2992,6 +2994,10 @@ body {
   width: 24px;
   height: 24px;
   margin-right: 2px;
+}
+
+.social-holder {
+  margin-left: 20%;
 }
 
 .footer-contact {

@@ -569,6 +569,14 @@
     gap: 40px;
     margin: 0px 10px;
   }
+
+  .icon-button {
+    margin-left: 10%;
+  }
+  
+  .social-holder {
+    margin-left: 20%;
+  }
 }
 
 @media screen and (max-width: 767px) {
